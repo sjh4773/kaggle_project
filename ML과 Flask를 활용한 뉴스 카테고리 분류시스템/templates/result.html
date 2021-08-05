@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/styles.css')}}">
+</head>
+<body>
+
+  <header>
+   <div class="container">
+   <div style="padding:300px 100px 50px 100px;">
+    <div id="brandname">
+        <center>ML App</center>
+    </div>
+    <h2><center>Categorize news categories</center></h2>
+   </div>
+  </header>
+  <p style="color:blue;font-size:20;text-align:center;"><b><center>category</center></b></p>
+  <div class ="results">
+
+  {% if prediction == 0%}
+  <h2 style="color:blue;"><center>정치</center></h2>
+  {% elif prediction == 1%}
+  <h2 style="color:blue;"><center>경제</center></h2>
+  {% elif prediction == 2%}
+  <h2 style="color:blue;"><center>사회</center></h2>
+  {% elif prediction == 3%}
+  <h2 style="color:blue;"><center>생활/문화</center></h2>
+  {% elif prediction == 4%}
+  <h2 style="color:blue;"><center>세계</center></h2>
+  {% elif prediction == 5%}
+  <h2 style="color:blue;"><center>기술/IT</center></h2>
+  {% elif prediction == 6%}
+  <h2 style="color:blue;"><center>연예</center></h2>
+  {% elif prediction == 7%}
+  <h2 style="color:blue;"><center>스포츠</center></h2>
+  {% endif %}
+
+  </div>
+
+</body>
+</html>
+
