@@ -34,6 +34,3 @@ Train offline -> Make model available as a service -> Predict online
 
 ![news2](https://user-images.githubusercontent.com/76901290/128296226-a99ca083-a1a1-4b55-965f-5b146a37d9d3.PNG)
 
-
-- 느낀점 
-    - 머신러닝 이론을 실제 웹 어플리케이션에 적용함으로써 많은 것을 배울 수 있었다. 
