@@ -53,4 +53,5 @@
     인원 : 개인
     기간 : 2021.09.25 ~2021.09.28
     내용 : OpenCV를 통해 동영상 내의 객체들의 움직임을 감지하고 검출한다.
-    결과 동영상 : https://youtu.be/XErCcwxGInM
+
+[OpenCV 최종 결과물 Link](https://youtu.be/XErCcwxGInM)
